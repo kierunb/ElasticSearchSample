@@ -1,0 +1,14 @@
+KQL - Kibana Query Language
+https://www.elastic.co/guide/en/kibana/7.17/kuery-query.html
+
+// samples
+
+Search all fields for 'Hello'
+Hello
+
+Filter for documents where a field exists
+http.request.method: *
+
+Filter for documents that match a value
+http.response.status_code: 200
+http.request.method: GET

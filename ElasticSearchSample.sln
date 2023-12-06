@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElasticSearchSample", "ElasticSearchSample\ElasticSearchSample.csproj", "{9D826F7A-E8A0-4337-A556-BEF880BF9A07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{48C72135-0153-4EE4-AA0B-4E3CDB000140}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yaml = docker-compose.yaml
+		es-crud.txt = es-crud.txt
+		es-queries.txt = es-queries.txt
+		notes.txt = notes.txt
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{B7CB990D-0764-4380-9896-76023BCB989F}"
+	ProjectSection(SolutionItems) = preProject
+		Demo\2019-michelin-restaurants.csv = Demo\2019-michelin-restaurants.csv
+		Demo\2019-michelin-resturants.txt = Demo\2019-michelin-resturants.txt
+		Demo\Demo_Script.txt = Demo\Demo_Script.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GrafanaDashboards", "GrafanaDashboards", "{FB79CF99-69F1-4963-952A-146E5F9967DC}"
+	ProjectSection(SolutionItems) = preProject
+		GrafanaDashboards\aspnetcore-endpoint.json = GrafanaDashboards\aspnetcore-endpoint.json
+		GrafanaDashboards\aspnetcore.json = GrafanaDashboards\aspnetcore.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PerformanceTests", "PerformanceTests", "{580BAA92-B122-45CB-83F7-2664C7A962DE}"
+	ProjectSection(SolutionItems) = preProject
+		PerformanceTests\k6-test.js = PerformanceTests\k6-test.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D826F7A-E8A0-4337-A556-BEF880BF9A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D826F7A-E8A0-4337-A556-BEF880BF9A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D826F7A-E8A0-4337-A556-BEF880BF9A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D826F7A-E8A0-4337-A556-BEF880BF9A07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EE78616-C1C8-4115-AFDF-4989C27BA35D}
+	EndGlobalSection
+EndGlobal

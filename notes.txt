@@ -1,0 +1,45 @@
+useful links:
+serilog:
+
+https://github.com/serilog/serilog-aspnetcore
+
+https://github.com/serilog-contrib/serilog-sinks-elasticsearch
+
+https://www.nuget.org/packages/Elastic.Serilog.Sinks
+https://www.nuget.org/packages/Elastic.Serilog.Sinks#readme-body-tab
+
+//setting up kibana (discover -> create index pattern)
+https://medium.com/@matias.paulo84/net-core-serilog-elasticsearch-kibana-3bd080ff4c1e
+https://www.humankode.com/asp-net-core/logging-with-elasticsearch-kibana-asp-net-core-and-docker/
+
+elk stack:
+https://github.com/deviantony/docker-elk
+
+
+elastic search:
+https://www.elastic.co/guide/en/elasticsearch/reference/current/elasticsearch-intro.html
+https://www.elastic.co/guide/en/elasticsearch/reference/current/documents-indices.html
+https://www.elastic.co/guide/en/elasticsearch/reference/current/search-analyze.html
+https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html
+
+https://hevodata.com/learn/elasticsearch-postgresql/
+https://yamannasser.medium.com/simplifying-elasticsearch-crud-with-net-core-a-step-by-step-guide-25c86a12ae15
+https://logz.io/blog/elasticsearch-tutorial/
+https://www.tutorialspoint.com/elasticsearch/index.htm
+https://www.elastic.co/guide/en/elasticsearch/reference/current/documents-indices.html
+
+
+elasticsearch with .net core:
+https://www.elastic.co/guide/en/elasticsearch/client/net-api/6.x/nest-getting-started.html
+https://www.bytefish.de/blog/elasticsearch_code_search_part1_backend_elasticsearch.html
+
+
+OpenTelemetry in .NET 8:
+https://learn.microsoft.com/en-us/dotnet/core/extensions/logging
+https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel
+
+Metrics and Grafana:
+https://github.com/dotnet/aspire/tree/main/src/Grafana
+
+Log parser sql samples:
+https://mlichtenberg.wordpress.com/2011/02/03/log-parser-rocks-more-than-50-examples/
